@@ -8,7 +8,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
 public class HomePage {
-	
+	//It is home page
 	public HomePage(AppiumDriver driver) {
 		
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
